@@ -1,0 +1,54 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+MLflow_env/
+.venv/
+*.env
+
+# Dependency directories
+*.egg-info/
+dist/
+build/
+eggs/
+
+# Configuration files
+.idea/
+.vscode/
+*.iml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Test output
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Python distribution artifacts
+*.tar.gz
+*.egg
+*.whl
+
+# MyPy type checking
+.mypy_cache/
+
+# Pyre type checking
+.pyre/
+
+# Sphinx documentation
+_docs/
+
+# Ignore
+mlruns/
+testing_artifacts/
